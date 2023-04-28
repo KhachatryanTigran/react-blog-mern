@@ -1,0 +1,39 @@
+@import "../styles/variables.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.wraper {
+  width: 100%;
+  display: flex;
+
+  margin: 0;
+  justify-content: center;
+  gap: 20px;
+}
+.sidebar {
+  border: 3px solid $base-color;
+  width: 30%;
+  background-color: $block-background;
+  border-radius: $border-radius;
+}
+.content {
+  width: 70%;
+
+  border-radius: $border-radius;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.coments {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}

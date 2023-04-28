@@ -1,0 +1,8 @@
+@import "../styles/variables.scss";
+.tags {
+  display: flex;
+
+  box-shadow: $box-shadow;
+  gap: 20px;
+  padding: 10px;
+}

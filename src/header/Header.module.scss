@@ -1,0 +1,35 @@
+@import "../styles/variables.scss";
+
+.header {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+  background-color: white;
+}
+
+.looged {
+  display: flex;
+}
+.auth_link {
+  background-color: rgb(95, 95, 239);
+  box-shadow: $box-shadow;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: $border-radius;
+  &:hover {
+    background-color: cadetblue;
+  }
+  &:active {
+    background-color: rgb(61, 99, 53);
+  }
+}
+.blog_name {
+  padding: 5px;
+  font-weight: bold;
+  color: darkslategrey;
+}

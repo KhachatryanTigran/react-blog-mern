@@ -1,0 +1,14 @@
+.outcontainer {
+  background-color: rgb(245, 244, 244);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1170px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

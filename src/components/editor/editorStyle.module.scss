@@ -1,0 +1,25 @@
+.mainBox {
+  max-width: 100%;
+}
+
+.wrapper {
+  padding: 1rem;
+  border: 4px outset rgb(255, 255, 255);
+  margin: 6px;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 2px 2px hsl(0deg 0% 63% / 23%);
+  max-width: 95%;
+}
+.editor {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 2px 2px hsl(0deg 0% 63% / 23%);
+  border: 2px outset #46af3a;
+  border-radius: 8px;
+}
+.toolbar {
+  border: 2px outset #46af3a;
+  box-shadow: 0 0 2px 2px hsl(0deg 0% 63% / 23%);
+  border-radius: 8px;
+}

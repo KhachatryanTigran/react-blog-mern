@@ -1,0 +1,13 @@
+.upload {
+  margin: 5px;
+}
+.image_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  max-width: 90%;
+  max-height: 90%;
+  border: 3px red solid;
+}
